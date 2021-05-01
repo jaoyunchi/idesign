@@ -1,0 +1,67 @@
+.container {
+    margin:auto;
+    width: 100%;
+    background: rgb(255, 158, 3);
+}
+.box1 .content {
+    color: rgb(255, 255, 255);
+    font-weight: 500;   
+    display:inline-block;
+    height: auto;
+    line-height: 1;
+    vertical-align: middle;
+}
+ .box1 {
+    line-height: 80px;
+    height: 80px;
+    background: rgb(255, 255, 255);
+}
+
+@media(max-width:920px) {
+    .box1 {
+        background: rgb(241, 123, 38);
+    }
+}
+
+@media(max-width:768px) {
+    .box1 {
+        background: rgb(240, 180, 138);
+    }
+}
+
+@media(max-width:540px) {
+    .box1 {
+      background: rgb(255, 255, 255);
+    }
+} 
+
+ul li {
+    height: 100px;
+    background: rgb(226, 161, 77);
+    float: left;
+    margin:1% 1% ;
+    width:98% ;       /*一欄*/
+}
+
+@media(min-width: 540px) {
+    ul li {
+        width:48% ;                 /*兩欄*/
+    }
+}
+
+@media(min-width: 768px) {
+    ul li {
+        width:31% ;               /*三欄*/
+    }
+}
+
+@media(min-width: 920px) {
+    ul li {
+        width:23% ;                 /*四欄*/
+    }
+}
+
+
+.clear {
+    clear: both;
+}
