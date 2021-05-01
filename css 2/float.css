@@ -1,0 +1,28 @@
+.container{
+    background-color: rgb(255, 165, 106);
+    width: 60%;
+    height:auto;
+    margin:auto;
+}
+
+.box{
+    background-color:rgb(240, 100, 6);
+    width:30%;
+    height: 270px;
+    float:left;
+}
+
+.floatimg{
+    float:left;
+    width:30%;
+}
+
+.p{
+    background-color:rgb(255, 255, 255);
+    width:30%;
+    float:left;
+}
+
+.clear{
+    clear:both;
+}
